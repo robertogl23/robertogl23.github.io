@@ -1,0 +1,6 @@
+{
+  "pathsFiles": {
+    "appIndexJs": "src/index.tsx",
+    "appHtml": "public/index.html"
+  }
+}

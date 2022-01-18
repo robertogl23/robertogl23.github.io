@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "static/css/main.335ae6fb.css",
+    "main.js": "static/js/main.c2ae4d85.js",
+    "vendors.js": "static/js/vendors.e668a15c.js",
+    "workbox-873c5e43.js": "workbox-873c5e43.js",
+    "service-worker.js": "service-worker.js",
+    "index.html": "index.html"
+  },
+  "entrypoints": [
+    "static/js/vendors.e668a15c.js",
+    "static/css/main.335ae6fb.css",
+    "static/js/main.c2ae4d85.js"
+  ]
+}

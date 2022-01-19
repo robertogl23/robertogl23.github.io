@@ -1,8 +1,10 @@
-
-@import 'theme.css';
-@import 'title-animation.css';
-@import 'globe.css';
-
+@font-face {
+  font-family: "baloo";
+  src: url("../assets/fonts/baloo/baloo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('./theme.css');
 html {
   box-sizing: border-box;
 }
@@ -31,41 +33,19 @@ body {
   color: var(--color-foreground);
 }
 
-body {
+h1{
+  font-family: var(--font-display);
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--color-foreground);
+  font-size: var(--font-size-base);
+  line-height: 1;
+}
+
+body{
   font-family: var(--font-body);
   line-height: 1.5;
-}
-
-header {
-  display:grid;
-  place-items: center;
-  height: auto;
-}
-main{
-  padding: 4rem 2rem;
-  margin: 0;
-}
-
-.title-layout{
-  line-height: 1;
-  position: absolute;
-  padding: 4rem 2rem;
-
-}
-
-@media print, (min-width: 640px) {
-  h1 span {
-    font-size: 6rem;
-  }
-
-  nav ul {
-    font-size: 1.25rem;
-    gap: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  h1 span {
-    font-size: 8rem;
-  }
+  min-height: 100vh;
+  background: var(--color-background);
 }

@@ -1,7 +1,7 @@
-.main-layout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+.layout {
+  min-height: 16rem;
+  padding: 2rem;
+}
+.layout p {
+  font-size: 0.9rem;
 }

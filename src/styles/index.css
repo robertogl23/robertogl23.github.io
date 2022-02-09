@@ -5,6 +5,7 @@
   font-style: normal;
 }
 @import url('./theme.css');
+@import url('./title-animation.css');
 html {
   box-sizing: border-box;
 }
@@ -43,6 +44,21 @@ h1{
   line-height: 1;
 }
 
+p{
+  font-family: var(--font-body);
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--color-foreground);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: var(--font-body);
   line-height: 1.5;

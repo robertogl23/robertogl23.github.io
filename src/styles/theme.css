@@ -11,14 +11,20 @@
 
   /* Tamaños de fuente */
   --font-size-base: 4rem;
+
+  /* Paddings */
+  --padding-base: 4rem 2rem;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-foreground: hsl(0, 0%, 100%);
     --color-background: hsl(0, 0%, 7%);
+    --color-background-1: hsl(0, 0%, 1%);
     --color-wave: hsl(0, 0%, 5%);
   }
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --color-foreground: hsl(0, 0%, 7%);
@@ -34,6 +40,6 @@
 
 @media (min-width: 1024px) {
   :root {
-    --font-size-base: 8rem;
+    --font-size-base: 7rem;
   }
 }

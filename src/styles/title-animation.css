@@ -3,8 +3,8 @@
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  /* width: 17ch;
-  animation: typing 4s steps(17), blink .5s infinite step-end alternate; */
+  width: 16ch;
+  animation: typing 4s steps(16), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 @keyframes typing {

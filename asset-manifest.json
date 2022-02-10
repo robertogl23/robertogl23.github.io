@@ -3,7 +3,7 @@
     "main.css": "static/css/main.31f83dae.css",
     "main.js": "static/js/main.81a81358.js",
     "vendors.js": "static/js/vendors.9dfcc02d.js",
-    "static/media/baloo.woff": "static/media/baloo.d71cebddeec67cd1776d.woff",
+    "baloo.woff": "static/media/baloo.d71cebddeec67cd1776d.woff",
     "workbox-873c5e43.js": "workbox-873c5e43.js",
     "service-worker.js": "service-worker.js",
     "index.html": "index.html"
